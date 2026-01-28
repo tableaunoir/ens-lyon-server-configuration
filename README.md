@@ -4,12 +4,17 @@
  
  
 # Location of the certicates
-/etc/letsencrypt/live/tableaunoir.ens-lyon.fr/fullchain.pem
-/etc/letsencrypt/live/tableaunoir.ens-lyon.fr/privkey.pem
+
+     
+     /etc/letsencrypt/live/tableaunoir.ens-lyon.fr/fullchain.pem
+     /etc/letsencrypt/live/tableaunoir.ens-lyon.fr/privkey.pem
 
 # Modify the configuration of nginx
 
         nano /etc/nginx/nginx.conf
+
+A version of `nginx.conf` is available in this repository.
+
 
 # Run nginx
 In order to run nginx:
